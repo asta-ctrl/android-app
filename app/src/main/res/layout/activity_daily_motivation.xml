@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Daily_Motivation">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCE4EC">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:text="Daily Motivation"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/quoteText"
+            android:text="Stay positive and keep pushing forward!"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fueling your body with nutrient-dense whole foods provides the sustainable energy needed to conquer daily challenges with a clear, focused mind. Engaging in consistent physical movement isn’t just about aesthetics; it’s a powerful celebration of what your body is capable of achieving every single day. Small, intentional choices like choosing water over soda or taking a brisk walk create a compounding effect that elevates your overall mood. Viewing exercise as a vital form of self-care rather than a chore transforms your routine into a rewarding journey toward long-term vitality. Ultimately, staying motivated stems from honoring your health as your greatest asset, ensuring you show up as the best version of yourself."
+            android:textColor="#4B4E9D"/>
+        <Button
+            android:text="New Quote"
+            android:id="@+id/newQuote"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

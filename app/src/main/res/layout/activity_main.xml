@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#FC54E7CA"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:text="HEALTH AND WELLNESS"
+            android:autoSizeMaxTextSize="50sp"
+            android:textAlignment="center"
+            android:textColor="#1B1B1B"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image2"
+            android:background="@drawable/image6"
+            android:clipToOutline="true"
+            android:elevation="4dp"
+            android:layout_marginBottom="24dp"/>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Your Daily Tools"
+            android:textColor="#636E72"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/healthy_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:padding="20dp"
+            android:text="Health Recipes"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#000000"
+            android:text="🥬Nutrition Advice"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:elevation="2dp"
+            android:textStyle="bold"
+            android:id="@+id/nutrition_advice"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#000000"
+            android:text="Mediation"
+            android:textSize="20sp"
+            android:id="@+id/meditation"/>
+
+        <Button
+            android:id="@+id/hydration_alert"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#000000"
+            android:text="Hydrate Alert"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Start Exercise"
+            android:textSize="20sp"
+            android:backgroundTint="#000000"
+            android:id="@+id/start_activity"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Daily motivation"
+            android:textSize="20sp"
+            android:backgroundTint="#000000"
+            android:id="@+id/daily_motivation"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Check Progress"
+            android:textSize="20sp"
+            android:backgroundTint="#000000"
+            app:backgroundTint="#00B894"
+            android:id="@+id/check_progress"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#000000"
+            android:text="Weekly Goals"
+            android:textSize="20sp"
+            android:id="@+id/weekly_goals"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
